@@ -31,6 +31,20 @@ p {
     
 }
 
+body {
+    background-image: url('./turf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+.wrap { 
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    
+    }
+
+
 /* #####################################################NAV BAR ########################################################################### */
 .navbar{
     width: 80%;
@@ -49,7 +63,7 @@ header::after{
     clear: both;
 }
 
-logo{
+logo {
     display: inline-block;
     max-height: 300px;
     max-width: 160px;
