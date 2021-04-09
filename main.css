@@ -1,0 +1,199 @@
+/* comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+h1  {
+    font-family: 'Train One', cursive;
+    font-size: 250%;
+    color: #F7F1F8;
+    text-align: center;
+    }
+
+h2  {
+        font-family: 'Train One', cursive;
+        font-size: 375%;
+        color: #F7F1F8;
+        text-align: center;
+        }
+
+h3 {
+        font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 300%;
+    color:#F7F1F8;
+    
+}
+
+p {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 200%;
+    color: #F7F1F8;
+    
+}
+
+/* #####################################################NAV BAR ########################################################################### */
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-image: none;
+    
+}
+
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+logo{
+    display: inline-block;
+    max-height: 300px;
+    max-width: 160px;
+    padding: 10px 0;
+
+}
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    
+    position: relative;
+}
+
+nav a{
+    color: #8E4C9E;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a :hover{
+    color:   #8E4C9E;
+
+}
+
+nav a ::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #8E4C9E;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+nav a :hover::before {
+    width: 100%;
+}
+/* ###################################################### Gallery #########################################################*/
+
+.container {
+    display: flex;
+    min-height: 200vh;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content: space-between;
+    align-items:stretch;
+}
+.mini {
+    color: #F7F1F8;
+    width: 25%;
+    font-size: 24px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+#container1 {
+    background-image: url("./ajax-webpage.jpg");
+    background-size: 100%;
+    
+}
+#container2 {
+    background-image: url("./united.jpg");
+    background-size: 100%;
+}
+#container3 {
+    background-image: url("./arsenal.jpg");
+    background-size: 139%;
+}
+#container4 {
+    background-image: url("./AC\ milan.jpg");
+    background-size: 200%;
+}
+#container5 {
+    background-image: url("./holland.jpg");
+    background-size: 135%;
+}
+#container6 {
+    background-image: url("./Germany.jpg");
+    background-size: 138%;
+    
+}
+#container7 {
+    background-image: url("./dynamo.jpg");
+    background-size: 175%;}
+#container8 {
+    background-image: url("./bayern.jpg");
+    background-size: 175%;}
+#container9 {
+    background-image: url("./barcelona.jpg");
+    background-size: 138%;}
+    
+#container10 {    
+    background-image: url("./stuttgart.jpg");
+    background-size: 138%;}
+
+
+/* ######################################################## EMAIL ######################################################################## */
+pre {
+    transition: opacity .2s ease-in-out;
+  }
+  pre:empty {
+    opacity: 0;
+  }
+  [data-button] {
+    display: block;
+    margin: 0 auto;
+    width: auto !important;
+}
+[type="text"],
+[type="email"],
+[data-theme=light] form textarea {
+    padding: .5em .6em;
+    width: 100%;
+    margin: 0 0 .5em 0;
+    font-size: 12pt;
+    border: 1px solid rgba(0,0,0,.25);
+    border-radius: 2px;
+    background: rgba(0,0,0,.3);
+    box-shadow: #8E4C9E;
+    color: rgba(255,255,255,.8);
+    background-color: #8E4C9E;
+}
+[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+    border-color: #6c71c4;
+    box-shadow: #6c71c4 0 0 3px;
+    background-color: #8E4C9E;
+}
+.error {
+    border-color: indianred !important;
+}
